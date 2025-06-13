@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss | Venture Securities AB</title>
+    <meta name="description" content="Läs mer om Venture Securities AB:s historia, investeringsfilosofi och team.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-blue': '#003366',
+                        'muted-gray': '#333333',
+                        'light-blue': '#66a3ff',
+                        'subtle-green': '#71A040'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'heading': ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-muted-gray bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-heading font-bold text-deep-blue hover:text-light-blue transition-colors duration-300">
+                        Venture Securities AB
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Hem</a>
+                        <a href="investments.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Investeringar</a>
+                        <a href="about.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Om oss</a>
+                        <a href="contact.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Kontakt</a>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact.html" class="bg-light-blue hover:bg-deep-blue text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                        Kontakta oss
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-muted-gray hover:text-deep-blue focus:outline-none focus:text-deep-blue transition-colors duration-300" id="mobile-menu-button">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+                <a href="index.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Hem</a>
+                <a href="investments.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Investeringar</a>
+                <a href="about.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Om oss</a>
+                <a href="contact.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Kontakt</a>
+                <div class="px-3 py-2">
+                    <a href="contact.html" class="bg-light-blue hover:bg-deep-blue text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 inline-block">
+                        Kontakta oss
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-16">
+        <section class="py-20 bg-gradient-to-br from-deep-blue via-blue-900 to-blue-800 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">
+                    Om oss
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 leading-relaxed">
+                    Venture Securities är ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984 och har hittills varit aktiva delägare i ett 80-tal företag.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8">
+                            HUR DET HELA BÖRJADE...
+                        </h2>
+                        <div class="relative pl-8 timeline">
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">1984</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    Lars Lindgren bildar Venture News AB som ger ut månatliga nyhetsbrev om utvecklingen på riskkapitalmarknaden i Sverige och internationellt.
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">1985</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    Lars Lindgren bildar Svenska Riskkapitalföreningen (SVCA) och arbetar som verkställande ledamot 1985-91 och 1993-95 samt som ordförande 1996-97.
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">1986</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    Företaget byter firma till Venture Securities och fokuserar på nyemissioner till onoterade företag tillsammans med Stockholm Fondkommission.
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">1988</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    Venture Securities bildar Campanius Venture KB, Europas första fund-of-funds för befintliga andelar i internationella VC-fonder. Campanius blir delägare i fonder i framför allt USA men även i UK och Frankrike.
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">1988-90</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    Venture Securities genomför kapitalanskaffningar åt flera onoterade företag och bygger upp en rätt så spretig portfölj med egna innehav i diverse fantasifulla projekt över hela världen varav en hel del går åt skogen.  
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">2014</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    2014 investerade vi i GP Bullhound Sidecar III som i sin tur investerat i bl a Spotify, Klarna, Matsmart och LeoVegas.
+                                    <a href="https://www.gpbullhound.com/" target="_blank" class="text-light-blue hover:underline">https://www.gpbullhound.com/</a>
+                                </p>
+                            </div>
+                            <div class="timeline-item mb-8">
+                                <h3 class="text-xl font-semibold text-deep-blue mb-2">2022</h3>
+                                <p class="text-muted-gray leading-relaxed">
+                                    2022 gick vi in i SSE Ventures som investerar i startups med koppling till Handelshögskolan. Vi är även med i antagningskommittén som väljer ut vilka bolag som får komma med i SSE Business Lab.
+                                    <a href="https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab" target="_blank" class="text-light-blue hover:underline">https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab</a>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-lg text-muted-gray leading-relaxed mt-8">
+                            Baserat på lärdomarna under 1980-talet fokuserar vi numera på investeringar i svenska start-ups inom branscher där vi känner oss komfortabla, där vi kan arbeta nära grundarna och där vi har möjlighet att bidra till en positiv utveckling. Detta förändrade fokus har hittills varit mycket lyckosamt.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <img src="../assets/images/general/lars_lindgren_1984.jpeg" alt="Lars Lindgren 1984" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                        <p class="text-sm text-gray-500 mt-4">Lars Lindgren 1984 med sin nya HP150 pekdator med en hårddisk på hela 10 MB!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8 text-center">
+                    LYSSNA PÅ PODDAR OM VÅRA ERFARENHETER OCH LÄRDOMAR!
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Ronja Koepke och Ted Elvhage</h3>
+                        <p class="text-muted-gray mb-4">
+                            Stod bakom Investpodden och gjorde den här inspelningen redan 2017:
+                        </p>
+                        <a href="https://podtail.se/podcast/investpodden/avsnitt-37-lars-lindgren-affarsangel/" target="_blank" class="text-light-blue hover:underline">
+                            Investpodden: Lars Lindgren - Affärsängel
+                        </a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Pepins intervjuade Lars Lindgren</h3>
+                        <p class="text-muted-gray mb-4">
+                            2020 om hans erfarenheter som affärsängel:
+                        </p>
+                        <a href="https://soundcloud.com/pepins-peptalk/du-saljer-inte-nar-du-vill-salja-du-saljer-nar-nagon-vill-kopa" target="_blank" class="text-light-blue hover:underline">
+                            Pepins Peptalk: Du säljer inte när du vill sälja, du säljer när någon vill köpa
+                        </a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Investeringsnätverket Nyfikna Investerare</h3>
+                        <p class="text-muted-gray mb-4">
+                            Publicerade den här intervjun i augusti 2024:
+                        </p>
+                        <a href="https://open.spotify.com/episode/5zq4caiXE6HxIxDouzxH" target="_blank" class="text-light-blue hover:underline">
+                            Spotify: Nyfikna Investerare
+                        </a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Carolina Lahdo som driver WiB Capital</h3>
+                        <p class="text-muted-gray mb-4">
+                            Publicerade den här intervjun i november 2024:
+                        </p>
+                        <a href="https://open.spotify.com/episode/4sHdx7EPdvHdldLyDGxtCX?si=179E-5QFTWs" target="_blank" class="text-light-blue hover:underline">
+                            Spotify: WiB Capital
+                        </a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Robert Edvardsson</h3>
+                        <p class="text-muted-gray mb-4">
+                            Publicerade den här intervjun i december 2024:
+                        </p>
+                        <a href="https://podcasts.apple.com/se/podcast/049-aff%C3%A4rs%C3%A4nglar-hur-funkar-det-lars-lindgren-aff%C3%A4rs%C3%A4ngel/id1726949171?i=1000681376069" target="_blank" class="text-light-blue hover:underline">
+                            Apple Podcasts: Affärsänglar - hur funkar det?
+                        </a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-deep-blue mb-2">Patric BliR Ängel</h3>
+                        <p class="text-muted-gray mb-4">
+                            I mars 2024 medverkade Lars Lindgren i den mycket populära podcasten "Patric BliR Ängel":
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=xRc3zyPq3hY&list=PLvxn_5FVAKY2UUZUpLukXHbh7X99P4PeC&index=27&t=147s" target="_blank" class="text-light-blue hover:underline">
+                            YouTube: Patric BliR Ängel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-deep-blue text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2024 Venture Securities AB. Alla rättigheter reserverade.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-light-blue text-white p-3 rounded-full shadow-lg transition-opacity duration-300 opacity-0">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
+
+
