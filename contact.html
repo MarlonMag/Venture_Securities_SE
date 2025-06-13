@@ -344,12 +344,13 @@
             const savedLanguage = localStorage.getItem('preferredLanguage');
             const isEnglishPage = currentPage.includes('-en.html');
             
-            if (savedLanguage === 'en' && !isEnglishPage) {
+            // Only redirect if user has explicitly set a language preference
+            if (savedLanguage && savedLanguage === 'en' && !isEnglishPage) {
                 // User prefers English but is on Swedish page, redirect to English
                 const englishPage = basePage.replace('.html', '-en.html');
                 window.location.href = englishPage;
                 return;
-            } else if (savedLanguage === 'sv' && isEnglishPage) {
+            } else if (savedLanguage && savedLanguage === 'sv' && isEnglishPage) {
                 // User prefers Swedish but is on English page, redirect to Swedish
                 window.location.href = basePage;
                 return;
