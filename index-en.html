@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venture Securities AB - Vi hjälper entreprenörer att bygga framgångsrika företag</title>
-    <meta name="description" content="Venture Securities är ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984 och har hittills varit aktiva delägare i ett 80-tal företag.">
+    <title>Venture Securities AB - We help entrepreneurs build successful companies</title>
+    <meta name="description" content="Venture Securities is a private investment company for investments in unlisted companies. We started investing in startups in 1984 and have so far been active shareholders in around 80 companies.">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -50,7 +50,7 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <a href="index.html" class="text-2xl font-heading font-bold text-deep-blue hover:text-light-blue transition-colors duration-300">
+                    <a href="index-en.html" class="text-2xl font-heading font-bold text-deep-blue hover:text-light-blue transition-colors duration-300">
                         Venture Securities AB
                     </a>
                 </div>
@@ -58,15 +58,15 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="index.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Hem</a>
-                        <a href="investments.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Investeringar</a>
-                        <a href="about.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Om oss</a>
-                        <a href="contact.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Kontakt</a>
+                        <a href="index-en.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Home</a>
+                        <a href="investments-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Investments</a>
+                        <a href="about-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">About us</a>
+                        <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Contact</a>
                         
                         <!-- Language Switcher -->
                         <div class="flex items-center space-x-2 ml-4">
-                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                         </div>
                     </div>
                 </div>
@@ -87,16 +87,16 @@
         <!-- Mobile Navigation -->
         <div class="md:hidden hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-                <a href="index.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Hem</a>
-                <a href="investments.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Investeringar</a>
-                <a href="about.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Om oss</a>
-                <a href="contact.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Kontakt</a>
+                <a href="index-en.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Home</a>
+                <a href="investments-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Investments</a>
+                <a href="about-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">About us</a>
+                <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Contact</a>
                 
                 <!-- Mobile Language Switcher -->
                 <div class="flex items-center space-x-2 px-3 py-2">
                     <span class="text-sm text-muted-gray">Language:</span>
-                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                 </div>
             </div>
         </div>
@@ -108,18 +108,18 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
-                    Vi hjälper entreprenörer att<br>
-                    <span class="text-light-blue">bygga framgångsrika företag</span>
+                    We help entrepreneurs<br>
+                    <span class="text-light-blue">build successful companies</span>
                 </h1>
                 <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed text-blue-100">
-                    Vi investerar i start-ups, framför allt inom digitala tjänster riktade till företag (B2B) och helst med en SaaS-modell eller plattform/marknadsplats. Vi vill gärna vara nära entreprenörerna och investerar därför bara i bolag med säte i Stockholm - däremot får de gärna ha stor internationell potential!
+                    We invest in start-ups, primarily in digital services aimed at businesses (B2B) and preferably with a SaaS model or platform/marketplace. We like to be close to the entrepreneurs and therefore only invest in companies based in Stockholm - however, they are welcome to have great international potential!
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="contact.html" class="bg-light-blue hover:bg-white hover:text-deep-blue text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                        Skicka din pitch
+                    <a href="contact-en.html" class="bg-light-blue hover:bg-white hover:text-deep-blue text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        Send your pitch
                     </a>
-                    <a href="about.html" class="border-2 border-white hover:bg-white hover:text-deep-blue text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                        Läs mer om oss
+                    <a href="about-en.html" class="border-2 border-white hover:bg-white hover:text-deep-blue text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+                        Learn more about us
                     </a>
                 </div>
             </div>
@@ -137,44 +137,44 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-heading font-bold text-deep-blue mb-4">
-                    Vår investeringsfilosofi: K.U.L.
+                    Our investment philosophy: F.U.N.
                 </h2>
                 <p class="text-xl text-muted-gray max-w-3xl mx-auto">
-                    När vi investerar utgår vi från våra tre ledord K.U.L. - en filosofi som har guidat oss i över 40 år.
+                    When we invest, we base our decisions on our three guiding principles F.U.N. - a philosophy that has guided us for over 40 years.
                 </p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Kul -->
+                <!-- Fun -->
                 <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-light-blue rounded-full flex items-center justify-center mb-6 mx-auto">
-                        <span class="text-2xl font-heading font-bold text-white">K</span>
+                        <span class="text-2xl font-heading font-bold text-white">F</span>
                     </div>
-                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Kul</h3>
+                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Fun</h3>
                     <p class="text-muted-gray leading-relaxed">
-                        Det är viktigt att man tycker det är roligt att arbeta tillsammans. Detta gäller med såväl entreprenörerna som de olika medinvesterarna.
+                        It's important that we find it enjoyable to work together. This applies to both the entrepreneurs and the various co-investors.
                     </p>
                 </div>
                 
-                <!-- Utvecklande -->
+                <!-- Useful -->
                 <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-subtle-green rounded-full flex items-center justify-center mb-6 mx-auto">
                         <span class="text-2xl font-heading font-bold text-white">U</span>
                     </div>
-                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Utvecklande</h3>
+                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Useful</h3>
                     <p class="text-muted-gray leading-relaxed">
-                        Vi vill kunna lära oss något intressant från de olika verksamheterna och våra erfarenheter från tidigare investeringar ska också vara till nytta för bolagen.
+                        We want to be able to learn something interesting from the various businesses, and our experience from previous investments should also be useful for the companies.
                     </p>
                 </div>
                 
-                <!-- Lönsamt -->
+                <!-- Necessary -->
                 <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-6 mx-auto">
-                        <span class="text-2xl font-heading font-bold text-white">L</span>
+                        <span class="text-2xl font-heading font-bold text-white">N</span>
                     </div>
-                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Lönsamt</h3>
+                    <h3 class="text-2xl font-heading font-bold text-deep-blue mb-4 text-center">Necessary</h3>
                     <p class="text-muted-gray leading-relaxed">
-                        Vi siktar på 10 gånger pengarna vid försäljning av ett innehav. Vi är ofta kvar som aktieägare ända tills bolagen blir uppköpta vilket kan ta 5-10 år. (I ett fall tog det 15 år men det blev en mycket bra investering till slut!)
+                        We aim for 10 times the money when selling a holding. We often remain as shareholders until the companies are acquired, which can take 5-10 years. (In one case it took 15 years but it became a very good investment in the end!)
                     </p>
                 </div>
             </div>
@@ -188,10 +188,10 @@
                 <!-- What We Look For -->
                 <div>
                     <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8">
-                        Saker vi gillar hos start-ups
+                        Things we like in start-ups
                     </h2>
                     <p class="text-lg text-muted-gray mb-8">
-                        Nedanstående punkter är inga oeftergivliga krav men de ökar sannolikheten dramatiskt för att vi ska vilja investera:
+                        The following points are not absolute requirements, but they dramatically increase the likelihood that we will want to invest:
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start space-x-3">
@@ -200,7 +200,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget säljer en digital tjänst, gärna med en SaaS-modell som ger återkommande intäkter</p>
+                            <p class="text-muted-gray">The company sells a digital service, preferably with a SaaS model that provides recurring revenue</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -208,7 +208,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget har några kunder som använder tjänsten</p>
+                            <p class="text-muted-gray">The company has some customers using the service</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -216,7 +216,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget har startats av minst ett par grundare</p>
+                            <p class="text-muted-gray">The company was started by at least a couple of founders</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -224,7 +224,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Grundarna har erfarenhet av entreprenörskap, förstår teknik, är mycket drivna och gillar att sälja</p>
+                            <p class="text-muted-gray">The founders have experience in entrepreneurship, understand technology, are highly driven and like to sell</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -232,7 +232,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Grundarna inser att om man tar in externt kapital är det bolagets bästa som är det viktigaste, inte de enskilda personerna</p>
+                            <p class="text-muted-gray">The founders realize that when taking external capital, the company's best interests are most important, not the individual persons</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -240,7 +240,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget behöver högst 5-10 Mkr i en första extern runda och dessa pengar räcker för att ta bolaget till nästa nivå</p>
+                            <p class="text-muted-gray">The company needs at most 5-10 MSEK in a first external round and this money is enough to take the company to the next level</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -248,7 +248,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget värderas till högst 25-30 Mkr pre-money</p>
+                            <p class="text-muted-gray">The company is valued at most 25-30 MSEK pre-money</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -256,7 +256,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Andra duktiga investerare vill gå in tillsammans med oss</p>
+                            <p class="text-muted-gray">Other skilled investors want to invest together with us</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-light-blue rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -264,7 +264,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Bolaget har sitt säte i Stockholm (av praktiska skäl eftersom vi gillar att vara nära entreprenörerna)</p>
+                            <p class="text-muted-gray">The company is based in Stockholm (for practical reasons since we like to be close to the entrepreneurs)</p>
                         </div>
                     </div>
                 </div>
@@ -272,10 +272,10 @@
                 <!-- What We Contribute -->
                 <div>
                     <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8">
-                        Saker vi kan bidra med
+                        Things we can contribute
                     </h2>
                     <p class="text-lg text-muted-gray mb-8">
-                        Efter över 80 investeringar i startups sedan 1984 har vi samlat på oss en hel del erfarenhet som vi gärna delar med oss av:
+                        After over 80 investments in startups since 1984, we have accumulated quite a bit of experience that we are happy to share:
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start space-x-3">
@@ -284,7 +284,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vår sweet spot är att utveckla bolag från 0-100 Mkr</p>
+                            <p class="text-muted-gray">Our sweet spot is developing companies from 0-100 MSEK</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -292,7 +292,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi har erfarenhet från aktivt styrelsearbete i ett 40-tal bolag inom olika branscher och utvecklingsfaser</p>
+                            <p class="text-muted-gray">We have experience from active board work in around 40 companies across different industries and development phases</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -300,7 +300,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Många bolag har nära-döden-upplevelser och det är då bra med investerare som varit med om detta tidigare</p>
+                            <p class="text-muted-gray">Many companies have near-death experiences and it's good to have investors who have been through this before</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -308,7 +308,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Efter drygt 45 år inom näringslivet har vi ett mycket brett kontaktnät som kan vara till stor nytta</p>
+                            <p class="text-muted-gray">After over 45 years in business, we have a very broad network of contacts that can be of great benefit</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -316,7 +316,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi ordnar träffar för VD:arna i "våra" bolag där de kan utbyta erfarenheter under informella former</p>
+                            <p class="text-muted-gray">We organize meetings for the CEOs in "our" companies where they can exchange experiences in informal settings</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -324,7 +324,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi ordnar även workshops inom utvalda områden</p>
+                            <p class="text-muted-gray">We also organize workshops in selected areas</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -332,7 +332,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi investerar upp till 5 Mkr per bolag (ibland mer)</p>
+                            <p class="text-muted-gray">We invest up to 5 MSEK per company (sometimes more)</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -340,7 +340,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi börjar gärna med en mindre investering för att sedan öka i takt med att bolaget utvecklas</p>
+                            <p class="text-muted-gray">We prefer to start with a smaller investment and then increase as the company develops</p>
                         </div>
                         <div class="flex items-start space-x-3">
                             <div class="w-6 h-6 bg-subtle-green rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -348,7 +348,7 @@
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <p class="text-muted-gray">Vi är oftast kvar som delägare till dess bolaget köps upp</p>
+                            <p class="text-muted-gray">We usually remain as shareholders until the company is acquired</p>
                         </div>
                     </div>
                 </div>
@@ -362,31 +362,31 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <!-- Book Image -->
                 <div class="text-center lg:text-left">
-                    <img src="assets/images/general/book_cover_mitt_liv_som_affarsangel.jpeg" alt="Mitt liv som affärsängel - bok av Lars Lindgren" class="w-80 h-auto mx-auto lg:mx-0 rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-300">
+                    <img src="assets/images/general/book_cover_mitt_liv_som_affarsangel.jpeg" alt="My Life as a Business Angel - book by Lars Lindgren" class="w-80 h-auto mx-auto lg:mx-0 rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-300">
                 </div>
                 
                 <!-- Book Content -->
                 <div>
                     <h2 class="text-3xl md:text-4xl font-heading font-bold text-deep-blue mb-6">
-                        Mitt liv som affärsängel
+                        My Life as a Business Angel
                     </h2>
                     <div class="space-y-4 text-lg text-muted-gray leading-relaxed mb-8">
                         <p>
-                            Lars Lindgren började som affärsängel redan 1984 efter att ha haft ett eget företag, varit bankanställd, arbetat på Aktiefrämjandet och varit informationschef på det börsnoterade utvecklingsbolaget Hexagon. Året efter tog han initiativ till att bilda Svenska Riskkapital-föreningen (SVCA) och han har sedan dess varit mycket aktiv i att utveckla ekosystemet kring riskkapital i Sverige.
+                            Lars Lindgren started as a business angel as early as 1984 after having had his own company, been a bank employee, worked at Aktiefrämjandet and been information manager at the listed development company Hexagon. The year after, he took the initiative to form the Swedish Private Equity & Venture Capital Association (SVCA) and has since been very active in developing the ecosystem around venture capital in Sweden.
                         </p>
                         <p>
-                            I den här boken delar han med sig av sina personliga erfarenheter från investeringar i sammanlagt 80 startups. En del har gått bra, en del har gått dåligt och några dåliga har gått att vända till något bra. Boken innehåller detaljerade berättelser om ett dussintal av dessa investeringar – såväl goda som dåliga – och de lärdomar han har dragit av dem.
+                            In this book, he shares his personal experiences from investments in a total of 80 startups. Some have gone well, some have gone badly and some bad ones have been turned into something good. The book contains detailed stories about a dozen of these investments – both good and bad – and the lessons he has learned from them.
                         </p>
                         <p>
-                            Affärsänglar spelar en mycket viktig roll för att identifiera och finansiera startups som så småningom kan växa upp och bli framgångsrika företag. Men kan vem som helst bli affärsängel och hur gör man för att komma igång? Hur hittar man startups och vad ska man tänka på när man investerar? Hur gör man om bolaget inte utvecklas som det var tänkt? Och går det verkligen att leva på att vara affärsängel? Alla dessa frågor och många fler får du svar på i den här boken!
+                            Business angels play a very important role in identifying and financing startups that can eventually grow up and become successful companies. But can anyone become a business angel and how do you get started? How do you find startups and what should you think about when investing? What do you do if the company doesn't develop as intended? And is it really possible to make a living being a business angel? All these questions and many more are answered in this book!
                         </p>
                     </div>
                     <div class="space-y-4">
                         <p class="text-sm text-muted-gray">
-                            "Mitt liv som affärsängel" finns att köpa hos Akademibokhandeln på Mäster Samuelsgatan och hos Hedengrens i Sturegallerian i Stockholm samt hos Adlibris och Bokus eller direkt från förlaget.
+                            "My Life as a Business Angel" is available for purchase at Akademibokhandeln on Mäster Samuelsgatan and at Hedengrens in Sturegallerian in Stockholm as well as at Adlibris and Bokus or directly from the publisher.
                         </p>
                         <a href="https://www.vulkanmedia.se/mitt-liv-som-affarsangel/" target="_blank" class="inline-flex items-center bg-light-blue hover:bg-deep-blue text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                            Köp boken
+                            Buy the book
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                             </svg>
@@ -401,13 +401,13 @@
     <section class="py-20 bg-gradient-to-r from-deep-blue to-blue-800 text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">
-                Har du en startup som passar våra kriterier?
+                Do you have a startup that fits our criteria?
             </h2>
             <p class="text-xl mb-8 text-blue-100">
-                Vi är alltid intresserade av att träffa nya entreprenörer med spännande idéer. Skicka oss en kort presentation så hör vi av oss.
+                We are always interested in meeting new entrepreneurs with exciting ideas. Send us a short presentation and we'll get back to you.
             </p>
-            <a href="contact.html" class="bg-white hover:bg-light-blue text-deep-blue hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Skicka din pitch
+            <a href="contact-en.html" class="bg-white hover:bg-light-blue text-deep-blue hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                Send your pitch
             </a>
         </div>
     </section>
@@ -420,7 +420,7 @@
                 <div>
                     <h3 class="text-2xl font-heading font-bold mb-4">Venture Securities AB</h3>
                     <p class="text-gray-300 mb-4">
-                        Ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984.
+                        A private investment company for investments in unlisted companies. We started investing in startups in 1984.
                     </p>
                     <div class="text-gray-300">
                         <p>Org.nr: 556378-6903</p>
@@ -431,18 +431,18 @@
                 
                 <!-- Quick Links -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Snabblänkar</h4>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="index.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Hem</a></li>
-                        <li><a href="investments.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investeringar</a></li>
-                        <li><a href="about.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Om oss</a></li>
-                        <li><a href="contact.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Kontakt</a></li>
+                        <li><a href="index-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Home</a></li>
+                        <li><a href="investments-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investments</a></li>
+                        <li><a href="about-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">About us</a></li>
+                        <li><a href="contact-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 
                 <!-- Contact -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Kontakt</h4>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <div class="text-gray-300 space-y-2">
                         <p>
                             <a href="mailto:lars.lindgren@venture-securities.se" class="hover:text-light-blue transition-colors duration-300">
@@ -459,7 +459,7 @@
             </div>
             
             <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Venture Securities AB. Alla rättigheter förbehållna.</p>
+                <p>&copy; 2024 Venture Securities AB. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Om oss | Venture Securities AB</title>
-    <meta name="description" content="Läs mer om Venture Securities AB:s historia, investeringsfilosofi och team.">
+    <title>About us | Venture Securities AB</title>
+    <meta name="description" content="Learn more about Venture Securities AB's history, investment philosophy and team.">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -50,7 +50,7 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <a href="index.html" class="text-2xl font-heading font-bold text-deep-blue hover:text-light-blue transition-colors duration-300">
+                    <a href="index-en.html" class="text-2xl font-heading font-bold text-deep-blue hover:text-light-blue transition-colors duration-300">
                         Venture Securities AB
                     </a>
                 </div>
@@ -58,20 +58,18 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="index.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Hem</a>
-                        <a href="investments.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Investeringar</a>
-                        <a href="about.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Om oss</a>
-                        <a href="contact.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Kontakt</a>
+                        <a href="index-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="investments-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Investments</a>
+                        <a href="about-en.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">About us</a>
+                        <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Contact</a>
                         
                         <!-- Language Switcher -->
                         <div class="flex items-center space-x-2 ml-4">
-                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                         </div>
                     </div>
                 </div>
-                
-
                 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
@@ -87,18 +85,17 @@
         <!-- Mobile Navigation -->
         <div class="md:hidden hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-                <a href="index.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Hem</a>
-                <a href="investments.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Investeringar</a>
-                <a href="about.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Om oss</a>
-                <a href="contact.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Kontakt</a>
+                <a href="index-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Home</a>
+                <a href="investments-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Investments</a>
+                <a href="about-en.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">About us</a>
+                <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Contact</a>
                 
                 <!-- Mobile Language Switcher -->
                 <div class="flex items-center space-x-2 px-3 py-2">
-                    <span class="text-sm text-muted-gray">Språk:</span>
-                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                    <span class="text-sm text-muted-gray">Language:</span>
+                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                 </div>
-
             </div>
         </div>
     </nav>
@@ -107,10 +104,10 @@
         <section class="py-20 bg-gradient-to-br from-deep-blue via-blue-900 to-blue-800 text-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">
-                    Om oss
+                    About us
                 </h1>
                 <p class="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                    Venture Securities är ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984 och har hittills varit aktiva delägare i ett 80-tal företag.
+                    Venture Securities is a private investment company for investments in unlisted companies. We started investing in startups as early as 1984 and have so far been active partners in about 80 companies.
                 </p>
             </div>
         </section>
@@ -120,89 +117,73 @@
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8">
-                            HUR DET HELA BÖRJADE...
+                            HOW IT ALL BEGAN...
                         </h2>
                         <div class="relative pl-8 timeline">
                             <div class="timeline-item mb-8">
                                 <h3 class="text-xl font-semibold text-deep-blue mb-2">1984</h3>
                                 <p class="text-muted-gray leading-relaxed">
-                                    Lars Lindgren bildar Venture News AB som ger ut månatliga nyhetsbrev om utvecklingen på riskkapitalmarknaden i Sverige och internationellt.
+                                    Lars Lindgren forms Venture News AB which publishes monthly newsletters about developments in the venture capital market in Sweden and internationally.
                                 </p>
                             </div>
                             <div class="timeline-item mb-8">
                                 <h3 class="text-xl font-semibold text-deep-blue mb-2">1985</h3>
                                 <p class="text-muted-gray leading-relaxed">
-                                    Lars Lindgren bildar Svenska Riskkapitalföreningen (SVCA) och arbetar som verkställande ledamot 1985-91 och 1993-95 samt som ordförande 1996-97.
+                                    Lars Lindgren forms the Swedish Private Equity & Venture Capital Association (SVCA) and works as executive member 1985-91 and 1993-95 as well as chairman 1996-97.
                                 </p>
                             </div>
                             <div class="timeline-item mb-8">
                                 <h3 class="text-xl font-semibold text-deep-blue mb-2">1986</h3>
                                 <p class="text-muted-gray leading-relaxed">
-                                    Företaget byter firma till Venture Securities och fokuserar på nyemissioner till onoterade företag tillsammans med Stockholm Fondkommission.
+                                    The company changes its name to Venture Securities and focuses on new issues to unlisted companies together with Stockholm Fondkommission.
                                 </p>
                             </div>
                             <div class="timeline-item mb-8">
                                 <h3 class="text-xl font-semibold text-deep-blue mb-2">1988</h3>
                                 <p class="text-muted-gray leading-relaxed">
-                                    Venture Securities bildar Campanius Venture KB, Europas första fund-of-funds för befintliga andelar i internationella VC-fonder. Campanius blir delägare i fonder i framför allt USA men även i UK och Frankrike.
+                                    Venture Securities forms Campanius Venture KB, Europe's first fund-of-funds for existing shares in international VC funds. Campanius becomes a partner in funds mainly in the USA but also in the UK and France.
                                 </p>
                             </div>
                             <div class="timeline-item mb-8">
                                 <h3 class="text-xl font-semibold text-deep-blue mb-2">1988-90</h3>
                                 <p class="text-muted-gray leading-relaxed">
-                                    Venture Securities genomför kapitalanskaffningar åt flera onoterade företag och bygger upp en rätt så spretig portfölj med egna innehav i diverse fantasifulla projekt över hela världen varav en hel del går åt skogen.  
-                                </p>
-                            </div>
-                            <div class="timeline-item mb-8">
-                                <h3 class="text-xl font-semibold text-deep-blue mb-2">2014</h3>
-                                <p class="text-muted-gray leading-relaxed">
-                                    2014 investerade vi i GP Bullhound Sidecar III som i sin tur investerat i bl a Spotify, Klarna, Matsmart och LeoVegas.
-                                    <a href="https://www.gpbullhound.com/" target="_blank" class="text-light-blue hover:underline">https://www.gpbullhound.com/</a>
-                                </p>
-                            </div>
-                            <div class="timeline-item mb-8">
-                                <h3 class="text-xl font-semibold text-deep-blue mb-2">2022</h3>
-                                <p class="text-muted-gray leading-relaxed">
-                                    2022 gick vi in i SSE Ventures som investerar i startups med koppling till Handelshögskolan. Vi är även med i antagningskommittén som väljer ut vilka bolag som får komma med i SSE Business Lab.
-                                    <a href="https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab" target="_blank" class="text-light-blue hover:underline">https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab</a>
+                                    Venture Securities carries out capital raising for several unlisted companies and builds up a rather scattered portfolio with own holdings in various imaginative projects around the world, many of which go to waste.
                                 </p>
                             </div>
                         </div>
                         <p class="text-lg text-muted-gray leading-relaxed mt-8">
-                            Baserat på lärdomarna under 1980-talet fokuserar vi numera på investeringar i svenska start-ups inom branscher där vi känner oss komfortabla, där vi kan arbeta nära grundarna och där vi har möjlighet att bidra till en positiv utveckling. Detta förändrade fokus har hittills varit mycket lyckosamt.
+                            Based on the lessons learned during the 1980s, we now focus on investments in Swedish start-ups in industries where we feel comfortable, where we can work closely with the founders and where we have the opportunity to contribute to positive development. This changed focus has so far been very successful.
                         </p>
                     </div>
                     <div class="text-center">
                         <img src="assets/images/general/lars_lindgren_1984.jpeg" alt="Lars Lindgren 1984" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
-                        <p class="text-sm text-gray-500 mt-4">Lars Lindgren 1984 med sin nya HP150 pekdator med en hårddisk på hela 10 MB!</p>
+                        <p class="text-sm text-gray-500 mt-4">Lars Lindgren 1984 with his new HP150 touch computer with a hard drive of a whole 10 MB!</p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-
         <!-- FöretagsByggarna Section -->
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-12 text-center">
-                    AFFÄRSÄNGELSYNDIKATET FÖRETAGSBYGGARNA
+                    THE BUSINESS ANGEL SYNDICATE FÖRETAGSBYGGARNA
                 </h2>
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            1993 bildades FöretagsByggarna AB där Lars Lindgren investerade tillsammans med bl a Martin Gemvik, Sture Lundén, Per-Henrik Norhagen och Johan Edfeldt.
+                            In 1993, FöretagsByggarna AB was formed where Lars Lindgren invested together with Martin Gemvik, Sture Lundén, Per-Henrik Norhagen and Johan Edfeldt, among others.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            FöretagsByggarna gjorde många mycket lyckade investeringar, bl a NeoPharma som utvecklade medicinering för Parkinson-patienter och såldes till Solvay 1999 och schemaläggningsbolaget Time Care som såldes till Allocate Software 2001.
+                            FöretagsByggarna made many very successful investments, including NeoPharma which developed medication for Parkinson's patients and was sold to Solvay in 1999 and the scheduling company Time Care which was sold to Allocate Software in 2001.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed">
-                            Under åren 2003-06 förvaltade FöretagsByggarna VC-fonderna Slottsbacken I och II med innehav i Sverige, Norge, Finland och USA. En av de investeringar som ägarna ansåg borde läggas ned var Marratech i Luleå som vi lyckades sälja till Google och bolagets teknik blev sedan en del av Google Hangout.
+                            During the years 2003-06, FöretagsByggarna managed the VC funds Slottsbacken I and II with holdings in Sweden, Norway, Finland and the USA. One of the investments that the owners thought should be shut down was Marratech in Luleå, which we managed to sell to Google and the company's technology later became part of Google Hangout.
                         </p>
                     </div>
                     <div class="text-center">
-                        <img src="assets/images/general/FöretagsByggarna2004.jpeg" alt="Delar av FöretagsByggarna 2004" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
-                        <p class="text-sm text-gray-500 mt-4">Delar av FöretagsByggarna 2004. Från vänster Lars Lindgren, Martin Gemvik, Per-Henrik Norhagen och Johan Edfeldt</p>
+                        <img src="assets/images/general/FöretagsByggarna2004.jpeg" alt="Parts of FöretagsByggarna 2004" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                        <p class="text-sm text-gray-500 mt-4">Parts of FöretagsByggarna 2004. From left Lars Lindgren, Martin Gemvik, Per-Henrik Norhagen and Johan Edfeldt</p>
                     </div>
                 </div>
             </div>
@@ -212,19 +193,19 @@
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-12 text-center">
-                    BILDANDE AV DHS VENTURE PARTNERS
+                    FORMATION OF DHS VENTURE PARTNERS
                 </h2>
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div class="text-center">
-                        <img src="assets/images/general/DHS_Partners.jpg" alt="VD:arna för DHS Venture Partners fyra första investeringar" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
-                        <p class="text-sm text-gray-500 mt-4">VD:arna för DHS Venture Partners fyra första investeringar. Från vänster Andreas Willgert från Formulate, Alexander Hjertström från Airinum, Hjalmar Ståhlberg Nordegren från Karma och Ludvig Persson Lejon från Qasa</p>
+                        <img src="assets/images/general/DHS_Partners.jpg" alt="CEOs of DHS Venture Partners' first four investments" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                        <p class="text-sm text-gray-500 mt-4">The CEOs of DHS Venture Partners' first four investments. From left Andreas Willgert from Formulate, Alexander Hjertström from Airinum, Hjalmar Ståhlberg Nordegren from Karma and Ludvig Persson Lejon from Qasa</p>
                     </div>
                     <div>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            Redan för 20 år sedan började Lars Lindgren fundera på att starta ett affärsängelnätverk med alumni från Handelshögskolan som skulle investera i startups med grundare som gått på Handels. Motivet var att bidra till att hjälpa duktiga entreprenörer och att "ge tillbaka" till skolan men givetvis även att ha trevligt tillsammans med andra Handelsalumni.
+                            Already 20 years ago, Lars Lindgren began thinking about starting a business angel network with alumni from the Stockholm School of Economics who would invest in startups with founders who had attended SSE. The motive was to help talented entrepreneurs and to "give back" to the school, but of course also to have fun together with other SSE alumni.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            2014 tog han initiativ till att bilda DHS Venture Partners. DHS består av 25 partners som alla gått på Handels och som investerar sina egna pengar parallellt med DHS. Vi har hittills gått in i ett drygt trettiotal startups. De allra första investeringarna var i Karma och därefter Qasa, Airinum, Formulate, Insurello och flera andra spännande bolag. Värdet på DHS portfölj har mer än tredubblats sedan starten 2015 så det går åt rätt håll!
+                            In 2014, he took the initiative to form DHS Venture Partners. DHS consists of 25 partners who all attended SSE and who invest their own money in parallel with DHS. We have so far invested in just over thirty startups. The very first investments were in Karma and then Qasa, Airinum, Formulate, Insurello and several other exciting companies. The value of the DHS portfolio has more than tripled since the start in 2015, so it's going in the right direction!
                         </p>
                         <a href="http://www.dhsventurepartners.com/" target="_blank" class="text-light-blue hover:underline font-medium">
                             www.dhsventurepartners.com
@@ -234,60 +215,60 @@
             </div>
         </section>
 
-        <!-- Propel Fonderna Section -->
+        <!-- Propel Funds Section -->
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-12 text-center">
-                    MEDVERKAN I PROPEL-FONDERNA
+                    PARTICIPATION IN THE PROPEL FUNDS
                 </h2>
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            2014 bildade STING (Stockholm Innovation & Growth) den första Propel-fonden för att investera i de 16 bolag som antogs till STINGs accelerator-program. Pengarna till Propel kom från 20 utvalda affärsänglar och bland bolagen fonden investerade i kan nämnas Apprl, Sellpy, Sudio och Qasa.
+                            In 2014, STING (Stockholm Innovation & Growth) formed the first Propel fund to invest in the 16 companies that were accepted into STING's accelerator program. The money for Propel came from 20 selected business angels and among the companies the fund invested in can be mentioned Apprl, Sellpy, Sudio and Qasa.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            Året efter bildades Propel II som investerade i bl a Airinum, Beatly, Impactpool, Match2One och World's Sports Group.
+                            The following year, Propel II was formed, which invested in Airinum, Beatly, Impactpool, Match2One and World's Sports Group, among others.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            Propel III bildades 2016 och har investerat i 26 bolag, 2017 bildades Propel IV som har investerat i bl a Learnster, 2019 bildades Propel V, 2022 bildades Propel VI och 2025 bildades Propel VII.
+                            Propel III was formed in 2016 and has invested in 26 companies, Propel IV was formed in 2017 and has invested in Learnster among others, Propel V was formed in 2019, Propel VI was formed in 2022 and Propel VII was formed in 2025.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            Vi har investerat i samtliga Propel-fonder och dessutom gjort aktiva investeringar direkt i flera av bolagen (se under fliken "Investeringar"). Lars Lindgren är styrelseledamot i de senaste Propel-fonderna.
+                            We have invested in all Propel funds and have also made active investments directly in several of the companies (see under the "Investments" tab). Lars Lindgren is a board member of the latest Propel funds.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed">
-                            Sedan 2019 är Venture Securities en av ett fåtal utvalda investerare som har ett s k saminvesteringsavtal med statliga Saminvest.
+                            Since 2019, Venture Securities is one of a few selected investors who have a so-called co-investment agreement with the state-owned Saminvest.
                         </p>
                     </div>
                     <div class="text-center">
-                        <img src="assets/images/general/saminvest-sting.jpg" alt="Saminvest och STING/Propel-fonderna" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
-                        <p class="text-sm text-gray-500 mt-4">Peder Hasslev och Erik Wijnbladh från Saminvest och Maria Ljungberg från STING/Propel-fonderna samt några av de utvalda affärsänglarna</p>
+                        <img src="assets/images/general/saminvest-sting.jpg" alt="Saminvest and STING/Propel funds" class="w-full max-w-md mx-auto rounded-lg shadow-lg">
+                        <p class="text-sm text-gray-500 mt-4">Peder Hasslev and Erik Wijnbladh from Saminvest and Maria Ljungberg from STING/Propel funds as well as some of the selected business angels</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Venture Capital Fonder Section -->
+        <!-- Venture Capital Funds Section -->
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-12 text-center">
-                    INVESTERINGAR I VENTURE CAPITAL-FONDER
+                    INVESTMENTS IN VENTURE CAPITAL FUNDS
                 </h2>
                 <div class="max-w-4xl mx-auto">
                     <p class="text-lg text-muted-gray leading-relaxed mb-8 text-center">
-                        För att bredda nätverket och lära oss mer om olika branscher har Venture Securities investerat i ytterligare ett par fonder:
+                        To broaden the network and learn more about different industries, Venture Securities has invested in a few additional funds:
                     </p>
                     
                     <div class="grid md:grid-cols-1 gap-8">
                         <div class="bg-white p-8 rounded-lg shadow-lg">
                             <h3 class="text-xl font-semibold text-deep-blue mb-4">Streamlined Ventures (2013)</h3>
                             <p class="text-muted-gray leading-relaxed mb-4">
-                                2013 gick vi som enda europeiska limited partner in i Streamlined Ventures baserad i Palo Alto. Streamlined har investerat i ett 40-tal amerikanska start-ups och går in i seed- och A-rundor.
+                                In 2013, we became the only European limited partner in Streamlined Ventures based in Palo Alto. Streamlined has invested in about 40 American start-ups and participates in seed and A rounds.
                             </p>
                             <p class="text-muted-gray leading-relaxed mb-4">
-                                Streamlineds första investering var i Applovin som vid börsnoteringen 2021 fick en värdering på närmare 400 gånger det investerade kapitalet och har nu ett börsvärde på över USD 100 miljarder.
+                                Streamlined's first investment was in Applovin which at the IPO in 2021 received a valuation of nearly 400 times the invested capital and now has a market value of over USD 100 billion.
                             </p>
                             <p class="text-muted-gray leading-relaxed mb-4">
-                                En annan av Streamlineds första investeringar var i DoorDash som börsnoterades i december 2020 till en värdering på över 1.000 gånger det investerade kapitalet.
+                                Another of Streamlined's first investments was in DoorDash which went public in December 2020 at a valuation of over 1,000 times the invested capital.
                             </p>
                             <a href="http://streamlinedventures.com/" target="_blank" class="text-light-blue hover:underline font-medium">
                                 streamlinedventures.com
@@ -297,7 +278,7 @@
                         <div class="bg-white p-8 rounded-lg shadow-lg">
                             <h3 class="text-xl font-semibold text-deep-blue mb-4">GP Bullhound Sidecar III (2014)</h3>
                             <p class="text-muted-gray leading-relaxed mb-4">
-                                2014 investerade vi i GP Bullhound Sidecar III som i sin tur investerat i bl a Spotify, Klarna, Matsmart och LeoVegas.
+                                In 2014, we invested in GP Bullhound Sidecar III which in turn has invested in Spotify, Klarna, Matsmart and LeoVegas, among others.
                             </p>
                             <a href="https://www.gpbullhound.com/" target="_blank" class="text-light-blue hover:underline font-medium">
                                 gpbullhound.com
@@ -307,7 +288,7 @@
                         <div class="bg-white p-8 rounded-lg shadow-lg">
                             <h3 class="text-xl font-semibold text-deep-blue mb-4">SSE Ventures (2022)</h3>
                             <p class="text-muted-gray leading-relaxed mb-4">
-                                2022 gick vi in i SSE Ventures som investerar i startups med koppling till Handelshögskolan. Vi är även med i antagningskommittén som väljer ut vilka bolag som får komma med i SSE Business Lab.
+                                In 2022, we joined SSE Ventures which invests in startups with connections to the Stockholm School of Economics. We are also part of the admissions committee that selects which companies get to participate in SSE Business Lab.
                             </p>
                             <a href="https://www.hhs.se/en/outreach/sse-initiatives/sse-business-lab" target="_blank" class="text-light-blue hover:underline font-medium">
                                 SSE Business Lab
@@ -323,18 +304,18 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div class="text-center">
-                        <img src="assets/images/general/Lindgren_Prize.jpg" alt="Lars Lindgren Nordic Angels pris" class="w-full max-w-xs mx-auto rounded-lg shadow-lg">
-                        <p class="text-sm text-gray-500 mt-4">Lars Lindgren vann Nordic Angels pris som "Most Active Angel 2024" på Angel Prize-galan</p>
+                        <img src="assets/images/general/Lindgren_Prize.jpg" alt="Lars Lindgren Nordic Angels award" class="w-full max-w-xs mx-auto rounded-lg shadow-lg">
+                        <p class="text-sm text-gray-500 mt-4">Lars Lindgren won the Nordic Angels award as "Most Active Angel 2024" at the Angel Prize gala</p>
                     </div>
                     <div>
                         <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8">
-                            ERKÄNNANDE OCH UTMÄRKELSER
+                            RECOGNITION AND AWARDS
                         </h2>
                         <p class="text-lg text-muted-gray leading-relaxed mb-6">
-                            Lars Lindgrens långvariga engagemang som affärsängel har uppmärksammats inom branschen. 2024 tilldelades han Nordic Angels prestigefulla utmärkelse "Most Active Angel 2024" på Angel Prize-galan.
+                            Lars Lindgren's long-standing commitment as a business angel has been recognized within the industry. In 2024, he was awarded Nordic Angels' prestigious award "Most Active Angel 2024" at the Angel Prize gala.
                         </p>
                         <p class="text-lg text-muted-gray leading-relaxed">
-                            Denna utmärkelse erkänner hans omfattande investeringsverksamhet och aktiva deltagande i svensk startup-ekosystem under fyra decennier.
+                            This award recognizes his extensive investment activity and active participation in the Swedish startup ecosystem over four decades.
                         </p>
                     </div>
                 </div>
@@ -345,31 +326,31 @@
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-8 text-center">
-                    LYSSNA PÅ PODDAR OM VÅRA ERFARENHETER OCH LÄRDOMAR!
+                    LISTEN TO PODCASTS ABOUT OUR EXPERIENCES AND LESSONS!
                 </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">Investpodden (2017)</h3>
                         <p class="text-muted-gray mb-4">
-                            Ronja Koepke och Ted Elvhage stod bakom Investpodden och gjorde den här inspelningen redan 2017:
+                            Ronja Koepke and Ted Elvhage were behind Investpodden and made this recording as early as 2017:
                         </p>
                         <a href="https://podtail.se/podcast/investpodden/avsnitt-37-lars-lindgren-affarsangel/" target="_blank" class="text-light-blue hover:underline">
-                            Investpodden: Lars Lindgren - Affärsängel
+                            Investpodden: Lars Lindgren - Business Angel
                         </a>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">Pepins Peptalk (2020)</h3>
                         <p class="text-muted-gray mb-4">
-                            Pepins intervjuade Lars Lindgren 2020 om hans erfarenheter som affärsängel:
+                            Pepins interviewed Lars Lindgren in 2020 about his experiences as a business angel:
                         </p>
                         <a href="https://soundcloud.com/pepins-peptalk/du-saljer-inte-nar-du-vill-salja-du-saljer-nar-nagon-vill-kopa" target="_blank" class="text-light-blue hover:underline">
-                            "Du säljer inte när du vill sälja, du säljer när någon vill köpa"
+                            "You don't sell when you want to sell, you sell when someone wants to buy"
                         </a>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">Nyfikna Investerare (2024)</h3>
                         <p class="text-muted-gray mb-4">
-                            Investeringsnätverket Nyfikna Investerare publicerade den här intervjun i augusti 2024:
+                            The investment network Nyfikna Investerare published this interview in August 2024:
                         </p>
                         <a href="https://open.spotify.com/episode/5zq4caiXE6HxIxDouxzhUk" target="_blank" class="text-light-blue hover:underline">
                             Spotify: Nyfikna Investerare
@@ -378,7 +359,7 @@
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">WiB Capital (2024)</h3>
                         <p class="text-muted-gray mb-4">
-                            Carolina Lahdo som driver WiB Capital publicerade den här intervjun i november 2024:
+                            Carolina Lahdo who runs WiB Capital published this interview in November 2024:
                         </p>
                         <a href="https://open.spotify.com/episode/4sHdx7EPdvHdldLyDGxtCX?si=179E-5QFTwSAF-OwerH2sg" target="_blank" class="text-light-blue hover:underline">
                             Spotify: WiB Capital
@@ -387,16 +368,16 @@
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">Robert Edvardsson (2024)</h3>
                         <p class="text-muted-gray mb-4">
-                            Robert Edvardsson publicerade den här intervjun i december 2024:
+                            Robert Edvardsson published this interview in December 2024:
                         </p>
                         <a href="https://podcasts.apple.com/se/podcast/049-aff%C3%A4rs%C3%A4nglar-hur-funkar-det-lars-lindgren-aff%C3%A4rs%C3%A4ngel/id1726949171?i=1000681376069" target="_blank" class="text-light-blue hover:underline">
-                            Apple Podcasts: Affärsänglar - hur funkar det?
+                            Apple Podcasts: Business Angels - how does it work?
                         </a>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2">"Patric blir Ängel" (2024)</h3>
                         <p class="text-muted-gray mb-4">
-                            I mars 2024 medverkade Lars Lindgren i den mycket populära podcasten "Patric blir Ängel":
+                            In March 2024, Lars Lindgren appeared on the very popular podcast "Patric blir Ängel":
                         </p>
                         <a href="https://www.youtube.com/watch?v=xRc3zyPq3hY&list=PLvxn_5FVAKy2UUZUpLukXHbh7X99P4PeC&index=27&t=147s" target="_blank" class="text-light-blue hover:underline">
                             YouTube: Patric blir Ängel
@@ -415,7 +396,7 @@
                 <div>
                     <h3 class="text-2xl font-heading font-bold mb-4">Venture Securities AB</h3>
                     <p class="text-gray-300 mb-4">
-                        Ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984.
+                        A private investment company for investments in unlisted companies. We started investing in startups as early as 1984.
                     </p>
                     <div class="text-gray-300">
                         <p>Org.nr: 556378-6903</p>
@@ -426,18 +407,18 @@
                 
                 <!-- Quick Links -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Snabblänkar</h4>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="index.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Hem</a></li>
-                        <li><a href="investments.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investeringar</a></li>
-                        <li><a href="about.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Om oss</a></li>
-                        <li><a href="contact.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Kontakt</a></li>
+                        <li><a href="index-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Home</a></li>
+                        <li><a href="investments-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investments</a></li>
+                        <li><a href="about-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">About us</a></li>
+                        <li><a href="contact-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 
                 <!-- Contact -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Kontakt</h4>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <div class="text-gray-300 space-y-2">
                         <p>
                             <a href="mailto:lars.lindgren@venture-securities.se" class="hover:text-light-blue transition-colors duration-300">
@@ -454,7 +435,7 @@
             </div>
             
             <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Venture Securities AB. Alla rättigheter förbehållna.</p>
+                <p>&copy; 2024 Venture Securities AB. All rights reserved.</p>
             </div>
         </div>
     </footer>

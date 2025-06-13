@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investeringar | Venture Securities AB</title>
-    <meta name="description" content="Läs mer om Venture Securities AB:s investeringar och portföljbolag.">
+    <title>Investments | Venture Securities AB</title>
+    <meta name="description" content="Learn more about Venture Securities AB's investments and portfolio companies.">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -58,15 +58,15 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="index.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Hem</a>
-                        <a href="investments.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Investeringar</a>
-                        <a href="about.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Om oss</a>
-                        <a href="contact.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Kontakt</a>
+                        <a href="index-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="investments-en.html" class="text-deep-blue font-medium border-b-2 border-light-blue px-3 py-2 text-sm">Investments</a>
+                        <a href="about-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">About</a>
+                        <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue transition-colors duration-300 px-3 py-2 text-sm font-medium">Contact</a>
                         
                         <!-- Language Switcher -->
                         <div class="flex items-center space-x-2 ml-4">
-                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                         </div>
                     </div>
                 </div>
@@ -87,16 +87,16 @@
         <!-- Mobile Navigation -->
         <div class="md:hidden hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-                <a href="index.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Hem</a>
-                <a href="investments.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Investeringar</a>
-                <a href="about.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Om oss</a>
-                <a href="contact.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Kontakt</a>
+                <a href="index-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Home</a>
+                <a href="investments-en.html" class="text-deep-blue font-medium block px-3 py-2 text-base border-l-4 border-light-blue bg-blue-50">Investments</a>
+                <a href="about-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">About</a>
+                <a href="contact-en.html" class="text-muted-gray hover:text-deep-blue block px-3 py-2 text-base font-medium transition-colors duration-300">Contact</a>
                 
                 <!-- Mobile Language Switcher -->
                 <div class="flex items-center space-x-2 px-3 py-2">
-                    <span class="text-sm text-muted-gray">Språk:</span>
-                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                    <span class="text-sm text-muted-gray">Language:</span>
+                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">SV</button>
+                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">EN</button>
                 </div>
 
             </div>
@@ -107,10 +107,10 @@
         <section class="py-20 bg-gradient-to-br from-deep-blue via-blue-900 to-blue-800 text-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">
-                    Investeringar
+                    Investments
                 </h1>
                 <p class="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                    Våra aktuella innehav och tidigare framgångsrika investeringar
+                    Our current holdings and previous successful investments
                 </p>
             </div>
         </section>
@@ -119,13 +119,13 @@
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-12 text-center">
-                    Aktuella innehav (år för vår första investering)
+                    Current Holdings (year of our first investment)
                 </h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Now Interact AB (2011)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar AI-baserade programvaror för att förutsäga vad besökare på olika hemsidor avser att göra. Kunder är internationella storföretag inom telekom, försäkringar och energi. Bland övriga investerare märks Carl Palmstierna och Martin Gemvik.
+                            The company develops AI-based software to predict what visitors to various websites intend to do. Customers are international large companies in telecommunications, insurance, and energy. Other investors include Carl Palmstierna and Martin Gemvik.
                         </p>
                         <a href="https://www.nowinteract.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             www.nowinteract.com →
@@ -135,7 +135,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Heartpace AB (2014)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar digitala HR-tjänster riktade mot mindre och medelstora företag. Största investerare är Söderberg & Partners där Heartpace ingår bland deras tjänster för att effektivisera kundföretagens verksamhet.
+                            The company develops digital HR services targeted at small and medium-sized companies. The largest investor is Söderberg & Partners, where Heartpace is included among their services to streamline their client companies' operations.
                         </p>
                         <a href="https://heartpace.com/sv/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             heartpace.com →
@@ -145,7 +145,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Karma AB (2015)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar ett mobilbaserat system för att beställa och betala på restauranger samtidigt som alla måltider klimatkompenseras. Bland övriga investerare märks Jonas Nordlander, Filip Engelbert och DHS Venture Partners.
+                            The company develops a mobile-based system for ordering and paying at restaurants while all meals are climate-compensated. Other investors include Jonas Nordlander, Filip Engelbert, and DHS Venture Partners.
                         </p>
                         <a href="https://karma.life/sv/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             karma.life →
@@ -155,7 +155,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Impactpool AB (2016)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget är världens största digitala arbetsförmedlare för människor som vill arbeta för internationella NGO's. Bland övriga investerare märks Fort Knox Förvaring, Mediahuis Ventures och Lexis Invest.
+                            The company is the world's largest digital job agency for people who want to work for international NGOs. Other investors include Fort Knox Förvaring, Mediahuis Ventures, and Lexis Invest.
                         </p>
                         <a href="https://www.impactpool.org/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             impactpool.org →
@@ -165,7 +165,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Curus AB (2017)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget investerar i digitala hälsobolag. I portföljen finns bl a Mindler, Doctrin, Health Integrator, Migränhjälpen, Colivia och Knodd. Dotterbolaget Add Health Media är Nordens största mediehus för hälsa och medicin. Bland övriga investerare märks Johan Bloom, Alfven & Didrikson, Alexander Stendahl och CSB Capital.
+                            The company invests in digital health companies. The portfolio includes Mindler, Doctrin, Health Integrator, Migränhjälpen, Colivia, and Knodd. The subsidiary Add Health Media is the Nordic region's largest media house for health and medicine. Other investors include Johan Bloom, Alfven & Didrikson, Alexander Stendahl, and CSB Capital.
                         </p>
                         <a href="https://www.curus.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             curus.se →
@@ -175,7 +175,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">World's Sports Group AB (2018)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar världens största plattform för maratonlopp och andra internationella idrottsarrangemang. Bland övriga investerare märks Simon Josefsson, Almi Invest, Christian Haglund, Bengt Maunsbach och DHS Venture Partners.
+                            The company develops the world's largest platform for marathon races and other international sports events. Other investors include Simon Josefsson, Almi Invest, Christian Haglund, Bengt Maunsbach, and DHS Venture Partners.
                         </p>
                         <a href="https://worldssportsgroup.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             worldssportsgroup.com →
@@ -185,7 +185,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Yepstr AB (2019)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en plattform för att koppla ihop arbetsgivare med ungdomar som söker jobb. Bland övriga investerare märks Gunilla von Platen, Johan Skarborg, Dan Sten Olsson, Lars-Henrik Friis Molin, Beijer Ventures och DHS Venture Partners.
+                            The company develops a platform to connect employers with young people seeking jobs. Other investors include Gunilla von Platen, Johan Skarborg, Dan Sten Olsson, Lars-Henrik Friis Molin, Beijer Ventures, and DHS Venture Partners.
                         </p>
                         <a href="https://www.yepstr.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             yepstr.com →
@@ -195,7 +195,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Learnster AB (2019)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en lärplattform som används av medelstora företag. Bland övriga investerare märks Subvenio, Söderberg & Partners, Tom Nyman, Almi Invest och STING Holding.
+                            The company develops a learning platform used by medium-sized companies. Other investors include Subvenio, Söderberg & Partners, Tom Nyman, Almi Invest, and STING Holding.
                         </p>
                         <a href="https://learnster.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             learnster.se →
@@ -205,7 +205,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Tendium AB (2019)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en AI-baserad plattform för att rationalisera och professionalisera offentlig upphandling. Bland övriga investerare märks Fredrik Posse, Lennart Källbäck, Ted Tigerschiöld, Kaknäs Invest och DHS Venture Partners.
+                            The company develops an AI-based platform to streamline and professionalize public procurement. Other investors include Fredrik Posse, Lennart Källbäck, Ted Tigerschiöld, Kaknäs Invest, and DHS Venture Partners.
                         </p>
                         <a href="https://tendium.ai/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             tendium.ai →
@@ -215,7 +215,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Exeger AB (2020)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget tillverkar solceller för konsumentprodukter med en egenutvecklad patenterad teknik. Bland övriga delägare märks Softbank, Stena Sessan och AMF.
+                            The company manufactures solar cells for consumer products using proprietary patented technology. Other shareholders include Softbank, Stena Sessan, and AMF.
                         </p>
                         <a href="https://www.exeger.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             exeger.com →
@@ -225,7 +225,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Treyd AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget hjälper snabbväxande e-handelsbolag att finansiera tillväxten. Bland övriga investerare märks Nineyards Equity, J12 Ventures, Antler och Zenith Venture Capital.
+                            The company helps fast-growing e-commerce companies finance their growth. Other investors include Nineyards Equity, J12 Ventures, Antler, and Zenith Venture Capital.
                         </p>
                         <a href="https://www.treyd.io/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             treyd.io →
@@ -235,7 +235,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Acuminor AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en programvara för att skydda företag och finansinstitut från penningtvätt och terrorfinansiering. Bland övriga investerare märks Brightly Ventures och Zenith Venture Capital.
+                            The company develops software to protect companies and financial institutions from money laundering and terrorist financing. Other investors include Brightly Ventures and Zenith Venture Capital.
                         </p>
                         <a href="https://www.acuminor.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             acuminor.com →
@@ -245,7 +245,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Beatly AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en plattform för att effektivisera influencermarknadsföring. Bland övriga investerare märks STING Holding och Daniel Soussan.
+                            The company develops a platform to streamline influencer marketing. Other investors include STING Holding and Daniel Soussan.
                         </p>
                         <a href="https://www.beatly.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             beatly.com →
@@ -255,7 +255,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">PeakPath AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar digitala hjälpmedel för att förebygga utbrändhet hos anställda. Bland övriga investerare märks Brighteye Ventures.
+                            The company develops digital tools to prevent employee burnout. Other investors include Brighteye Ventures.
                         </p>
                         <a href="https://www.peakpath.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             peakpath.com →
@@ -265,7 +265,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Inex One AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en plattform för s k expertnätverk. Bland övriga investerare märks J12 Ventures och Curitas Ventures.
+                            The company develops a platform for expert networks. Other investors include J12 Ventures and Curitas Ventures.
                         </p>
                         <a href="https://inex.one/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             inex.one →
@@ -275,7 +275,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Health Integrator AB (2021)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en plattform för att erbjuda preventiv vård för att därigenom avlasta sjukvården, bl a inom diabetes typ 2. Bland övriga investerare märks Luminar, J12, Leksell Social Ventures och Curus.
+                            The company develops a platform to offer preventive care to relieve the healthcare system, including for type 2 diabetes. Other investors include Luminar, J12, Leksell Social Ventures, and Curus.
                         </p>
                         <a href="https://www.healthintegrator.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             healthintegrator.se →
@@ -285,7 +285,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Fill AB (2022)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en marknadsplats för inköp av rekryteringstjänster för bolag i stark tillväxt. Bland övriga investerare märks Söderberg & Partners, Sebastian Knutsson, Niclas Qvist, STING Holding och Riccardo Zacconi.
+                            The company develops a marketplace for purchasing recruitment services for companies in strong growth. Other investors include Söderberg & Partners, Sebastian Knutsson, Niclas Qvist, STING Holding, and Riccardo Zacconi.
                         </p>
                         <a href="https://www.askfill.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             askfill.com →
@@ -295,7 +295,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Habeno AB (2022)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en digital tjänst för att hjälpa köpare av lägenheter och hus i Spanien och Portugal att få lån från lokala banker. Bland övriga investerare märks Philian, Sebastian Knutsson och Mattias Miksche.
+                            The company develops a digital service to help buyers of apartments and houses in Spain and Portugal get loans from local banks. Other investors include Philian, Sebastian Knutsson, and Mattias Miksche.
                         </p>
                         <a href="https://www.habeno.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             habeno.com →
@@ -305,7 +305,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Sigrid Therapeutics AB (2022)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar produkter för att motverka diabetes och fetma. Bland övriga investerare märks Wiinberg Consulting, Mats Arnhög, Opis Luma och Almi Invest.
+                            The company develops products to combat diabetes and obesity. Other investors include Wiinberg Consulting, Mats Arnhög, Opis Luma, and Almi Invest.
                         </p>
                         <a href="https://sigridthx.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             sigridthx.com →
@@ -315,7 +315,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Iboost Life AB (2022)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en digital tjänst för att underlätta inköp av rätt kvantitet av rätt matvaror till rätt kvalitet och rätt pris. Bland övriga investerare märks Helena Helgeson, Niclas Qvist, Anders Ingeström och Martin Gemvik.
+                            The company develops a digital service to facilitate purchasing the right quantity of the right food products at the right quality and right price. Other investors include Helena Helgeson, Niclas Qvist, Anders Ingeström, and Martin Gemvik.
                         </p>
                         <a href="https://www.iboost.life/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             iboost.life →
@@ -325,7 +325,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">CodeoC AB (2024)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar en digital tjänst för bilverkstäder. Bland övriga investerare märks Joel Russ, Anders Lundström, Benoit Fallenius, Magnus Wiberg, Patrik Hedelin och Martin Gemvik.
+                            The company develops a digital service for auto repair shops. Other investors include Joel Russ, Anders Lundström, Benoit Fallenius, Magnus Wiberg, Patrik Hedelin, and Martin Gemvik.
                         </p>
                         <a href="https://www.codeoc.ai/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             codeoc.ai →
@@ -335,7 +335,7 @@
                     <div class="bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30 group">
                         <h3 class="text-xl font-semibold text-deep-blue mb-2 group-hover:text-light-blue transition-colors duration-300">Normain AB (2024)</h3>
                         <p class="text-muted-gray mb-4 leading-relaxed">
-                            Bolaget utvecklar AI-baserade lösningar för att automatisera komplexa analyser och rapporter. Bland övriga investerare märks Joel Hellemark, Caroline Farberger, Mattias Miksche och DHS Venture Partners.
+                            The company develops AI-based solutions to automate complex analyses and reports. Other investors include Joel Hellemark, Caroline Farberger, Mattias Miksche, and DHS Venture Partners.
                         </p>
                         <a href="https://www.normain.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             normain.com →
@@ -349,16 +349,16 @@
         <section class="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-heading font-bold text-deep-blue mb-4 text-center">
-                    Några av våra tidigare investeringar
+                    Some of our previous investments
                 </h2>
                 <p class="text-lg text-muted-gray text-center mb-12 max-w-3xl mx-auto">
-                    (år för första investering resp. exit)
+                    (year of first investment and exit respectively)
                 </p>
                 <div class="space-y-8">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Socket Communications, Inc. (1996-2000)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            1994 investerade vi i Cetronic AB och ett par år senare arbetade vi för en fusion med Socket Communications i Silicon Valley. Sockets kassa var dock tom och vi investerade i flera rundor och blev därmed näst största aktieägare. Verksamheten utvecklades långsamt och fusionen avbröts men plötsligt började bolagets produkter för digital kommunikation komma i ropet. Vi noterade bolaget på NASDAQ och aktierna blev 1999 års vinnare. Vid vår första investeringen var bolagsvärdet $4 miljoner och detta ökade till som högst $1,2 miljarder! Vi började sälja aktier 1999 och sålde de sista ett par år senare med en mycket god förtjänst.
+                            In 1994, we invested in Cetronic AB and a couple of years later worked for a merger with Socket Communications in Silicon Valley. However, Socket's cash was depleted and we invested in several rounds, becoming the second-largest shareholder. The business developed slowly and the merger was cancelled, but suddenly the company's products for digital communication became in demand. We listed the company on NASDAQ and the shares became 1999's winner. At our first investment, the company value was $4 million and this increased to a peak of $1.2 billion! We started selling shares in 1999 and sold the last ones a couple of years later with a very good profit.
                         </p>
                         <a href="https://www.socketmobile.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             socketmobile.com →
@@ -368,14 +368,14 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">NeoPharma AB (1998-2004)</h3>
                         <p class="text-muted-gray leading-relaxed">
-                            Tillsammans med våra kompanjoner på FöretagsByggarna var vi första investerare i Uppsalabolaget NeoPharma. Bolaget utvecklade en ny distributionsmetod av läkemedel för patienter med grav Parkinsonsjuka. 2004 köptes NeoPharma upp av belgiska Solvay för drygt 600 Mkr.
+                            Together with our partners at FöretagsByggarna, we were the first investors in the Uppsala company NeoPharma. The company developed a new distribution method for medications for patients with severe Parkinson's disease. In 2004, NeoPharma was acquired by Belgian Solvay for over 600 million SEK.
                         </p>
                     </div>
                     
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">ProwebCE S.A. (2000-2015)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Vi var första investare i denna franska start-up som ville bli en factory-outlet på internet. Marknaden var dock inte mogen så efter tre år av nära döden-upplevelser fokuserade bolaget på programvaror för personalförmåner och så småningom även olika digitala erbjudanden. 2010 börsnoterades bolaget på NYSE Euronext och några år senare tog vi ut det från börsen igen. 2017 köptes bolaget upp av den franska koncernen Edenred till en värdering på motsvarande drygt 3 miljarder kr.
+                            We were the first investor in this French start-up that wanted to become a factory outlet on the internet. However, the market was not mature, so after three years of near-death experiences, the company focused on software for employee benefits and eventually also various digital offers. In 2010, the company was listed on NYSE Euronext and a few years later we took it private again. In 2017, the company was acquired by the French group Edenred at a valuation equivalent to over 3 billion SEK.
                         </p>
                         <a href="https://www.prowebce.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             prowebce.com →
@@ -385,7 +385,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Nordisk Väntrums-TV AB (2011-2017)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            2010 deltog vi i ett garantikonsortium för Procast Media AB noterat på Aktietorget. Emissionen misslyckades och vi blev sittande med en stor aktiepost. Det visade sig snart att verksamheten byggde på rena bedrägeriet och bolaget gick i konkurs. (VD och ekonomichefen dömdes senare för just bedrägeri och bokföringsbrott.) Vi trodde dock på grundidén med TV-skärmar hos tandläkare och vårdcentraler och köpte därför ut konkursboet och bildade Nordisk Väntrums-TV. Efter ett par år gick vi samman med värste konkurrenten och sedan dess har verksamheten varit lönsam. 2017 apporterades bolaget in i Add Health Media AB, numera Curus, som vi sedan dess är delägare i (se "Aktuella innehav" ovan).
+                            In 2010, we participated in a guarantee consortium for Procast Media AB listed on Aktietorget. The issue failed and we were left with a large shareholding. It soon became apparent that the business was based on pure fraud and the company went bankrupt. (The CEO and CFO were later convicted of fraud and accounting violations.) However, we believed in the basic idea of TV screens at dentists and healthcare centers and therefore bought out the bankruptcy estate and formed Nordisk Väntrums-TV. After a couple of years, we merged with our worst competitor and since then the business has been profitable. In 2017, the company was contributed to Add Health Media AB, now Curus, in which we have been shareholders since then (see "Current Holdings" above).
                         </p>
                         <a href="http://www.nvtv.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             nvtv.se →
@@ -395,7 +395,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Qasa AB (2016-2019)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Vi investerade i Qasa tillsammans med DHS Venture Partners 2016. Bolaget har utvecklat Sveriges största digitala bostadsförmedling och köptes upp av Blocket (Schibsted) 2019. Qasa ansvarar nu för all verksamhet inom Blocket Bostad.
+                            We invested in Qasa together with DHS Venture Partners in 2016. The company has developed Sweden's largest digital housing agency and was acquired by Blocket (Schibsted) in 2019. Qasa now handles all operations within Blocket Bostad.
                         </p>
                         <a href="https://qasa.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             qasa.se →
@@ -405,7 +405,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Doctrin AB (2016-2017)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            I juli 2016 gick vi in i den första externa emissionsrundan i då nystartade Doctrin. Bolaget har sedan dess utvecklats till en av de ledande leverantörerna av digitala tjänster för att automatisera patientflöden hos olika vårdgivare. Året efter sålde vi in våra aktier till Add Health Media, numera Curus (se "Aktuella innehav" ovan)
+                            In July 2016, we entered the first external funding round in the then newly started Doctrin. The company has since developed into one of the leading providers of digital services to automate patient flows at various healthcare providers. The following year, we sold our shares to Add Health Media, now Curus (see "Current Holdings" above).
                         </p>
                         <a href="https://doctrin.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             doctrin.se →
@@ -415,7 +415,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Kitab Sawti AB (2016-2020)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Vi var bland de första investerarna i Kitab Sawti som utvecklar en ljudbokstjänst för böcker på arabiska. Trots många stora utmaningar lyckades bolaget bli världsledande och köptes upp av Storytel i juli 2020 och är nu en viktig del i Storytels internationella verksamhet.
+                            We were among the first investors in Kitab Sawti, which develops an audiobook service for books in Arabic. Despite many major challenges, the company succeeded in becoming world-leading and was acquired by Storytel in July 2020 and is now an important part of Storytel's international operations.
                         </p>
                         <a href="https://kitabsawti.com/en/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             kitabsawti.com →
@@ -425,7 +425,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">WeHunt AB (2015-2021)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Vi var med och köpte ut WeHunt från Jägareförbundet 2015 och bland de absolut första investerarna. Bolaget har utvecklat Nordens mest använda app för jägare och har nu över 500.000 användare. WeHunt köptes upp av Open Air Group i januari 2021 och blir ett bra komplement till systerbolagen Tracker och Ultracom.
+                            We participated in buying out WeHunt from the Swedish Hunters' Association in 2015 and were among the very first investors. The company has developed the Nordic region's most used app for hunters and now has over 500,000 users. WeHunt was acquired by Open Air Group in January 2021 and becomes a good complement to sister companies Tracker and Ultracom.
                         </p>
                         <a href="https://wehuntapp.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             wehuntapp.com →
@@ -435,7 +435,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Insurello AB (2017-2021)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Tillsammans med några kolleger ur DHS Venture Partners var vi med och investerade i Insurellos första runda i maj 2017. Bolaget utvecklar en digital tjänst för att hjälpa människor som råkat ut för personskador och finns nu i Sverige, Danmark, Frankrike och Holland. Vi sålde våra aktier i samband med en större emission riktad till Nordstiernan och Schibsted i juli 2021.
+                            Together with some colleagues from DHS Venture Partners, we participated and invested in Insurello's first round in May 2017. The company develops a digital service to help people who have suffered personal injuries and is now present in Sweden, Denmark, France, and the Netherlands. We sold our shares in connection with a larger issue directed to Nordstiernan and Schibsted in July 2021.
                         </p>
                         <a href="https://www.insurello.se/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             insurello.se →
@@ -445,7 +445,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Match2One AB (2016-2021)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Bolaget bildades 2016 för att utveckla en AI-baserad plattform som möjliggör för mindre och medelstora företag att marknadsföra sig via programmatisk annonsering. Match2One kom in i Stings acceleratorprogram och fick därmed en investering från Propel-fonden. Vi investerade i den andra ängelrundan i slutet av 2016 och i alla de följande rundorna. Match2One köptes i september 2021 av Verve Group, dotterbolag till Nasdaq-noterade Media and Games Invest.
+                            The company was founded in 2016 to develop an AI-based platform that enables small and medium-sized companies to market themselves through programmatic advertising. Match2One entered Sting's accelerator program and thus received an investment from the Propel fund. We invested in the second angel round at the end of 2016 and in all subsequent rounds. Match2One was acquired in September 2021 by Verve Group, a subsidiary of Nasdaq-listed Media and Games Invest.
                         </p>
                         <a href="https://www.match2one.com/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             match2one.com →
@@ -455,7 +455,7 @@
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-light-blue/30">
                         <h3 class="text-2xl font-semibold text-deep-blue mb-4">Formulate AB (2017-2022)</h3>
                         <p class="text-muted-gray leading-relaxed mb-4">
-                            Bolaget bildades 2016 för att utveckla AI-baserade programvaror för att analysera effekterna av kampanjer inom dagligvaruhandeln. Tillsammans med några kolleger ur DHS Venture Partners var vi med och investerade i bolaget. Efter ett par år kom Industrifonden och även holländska HenQ och J12 Ventures in. I maj 2022 köptes Formulate upp av finska RELEX Solutions, ett världsledande företag inom programvarubaserade lösningar för detaljhandeln.
+                            The company was founded in 2016 to develop AI-based software to analyze the effects of campaigns in the grocery retail sector. Together with some colleagues from DHS Venture Partners, we participated and invested in the company. After a couple of years, Industrifonden and also Dutch HenQ and J12 Ventures joined. In May 2022, Formulate was acquired by Finnish RELEX Solutions, a world-leading company in software-based solutions for retail.
                         </p>
                         <a href="https://formulate.app/" target="_blank" class="text-light-blue hover:text-deep-blue transition-colors duration-300 font-medium">
                             formulate.app →
@@ -474,7 +474,7 @@
                 <div>
                     <h3 class="text-2xl font-heading font-bold mb-4">Venture Securities AB</h3>
                     <p class="text-gray-300 mb-4">
-                        Ett privat investeringsbolag för satsningar i onoterade bolag. Vi började investera i startups redan 1984.
+                        A private investment company for investments in unlisted companies. We started investing in startups as early as 1984.
                     </p>
                     <div class="text-gray-300">
                         <p>Org.nr: 556378-6903</p>
@@ -485,18 +485,18 @@
                 
                 <!-- Quick Links -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Snabblänkar</h4>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="index.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Hem</a></li>
-                        <li><a href="investments.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investeringar</a></li>
-                        <li><a href="about.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Om oss</a></li>
-                        <li><a href="contact.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Kontakt</a></li>
+                        <li><a href="index-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Home</a></li>
+                        <li><a href="investments-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Investments</a></li>
+                        <li><a href="about-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">About</a></li>
+                        <li><a href="contact-en.html" class="text-gray-300 hover:text-light-blue transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 
                 <!-- Contact -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">Kontakt</h4>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <div class="text-gray-300 space-y-2">
                         <p>
                             <a href="mailto:lars.lindgren@venture-securities.se" class="hover:text-light-blue transition-colors duration-300">
@@ -513,7 +513,7 @@
             </div>
             
             <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 Venture Securities AB. Alla rättigheter förbehållna.</p>
+                <p>&copy; 2024 Venture Securities AB. All rights reserved.</p>
             </div>
         </div>
     </footer>
