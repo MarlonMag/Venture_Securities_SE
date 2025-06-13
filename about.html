@@ -65,8 +65,8 @@
                         
                         <!-- Language Switcher -->
                         <div class="flex items-center space-x-2 ml-4">
-                            <button id="lang-sv" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                            <button id="lang-en" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                            <span class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</span>
+                            <a href="about-en.html" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</a>
                         </div>
                     </div>
                 </div>
@@ -95,8 +95,8 @@
                 <!-- Mobile Language Switcher -->
                 <div class="flex items-center space-x-2 px-3 py-2">
                     <span class="text-sm text-muted-gray">Språk:</span>
-                    <button id="lang-sv-mobile" class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</button>
-                    <button id="lang-en-mobile" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</button>
+                    <span class="px-3 py-1 text-sm font-medium text-white bg-deep-blue rounded transition-colors duration-300">SV</span>
+                    <a href="about-en.html" class="px-3 py-1 text-sm font-medium text-muted-gray hover:text-deep-blue border border-gray-300 rounded transition-colors duration-300">EN</a>
                 </div>
 
             </div>
@@ -466,44 +466,7 @@
     </button>
 
     <script src="assets/js/main.js"></script>
-    <script>
-        // Language switcher functionality with persistence
-        document.addEventListener('DOMContentLoaded', function() {
-            const langSv = document.getElementById('lang-sv');
-            const langEn = document.getElementById('lang-en');
-            const langSvMobile = document.getElementById('lang-sv-mobile');
-            const langEnMobile = document.getElementById('lang-en-mobile');
-            
-            // Get current page name
-            const currentPage = window.location.pathname.split('/').pop();
-            const basePage = currentPage.replace('-en.html', '.html');
-            
-            // Swedish language switcher
-            function switchToSwedish() {
-                if (currentPage.includes('-en.html')) {
-                    // If on English page, go to Swedish version
-                    window.location.href = basePage;
-                }
-                // If already on Swedish page, do nothing
-            }
-            
-            // English language switcher
-            function switchToEnglish() {
-                if (!currentPage.includes('-en.html')) {
-                    // If on Swedish page, go to English version
-                    const englishPage = basePage.replace('.html', '-en.html');
-                    window.location.href = englishPage;
-                }
-                // If already on English page, do nothing
-            }
-            
-            // Add event listeners
-            if (langSv) langSv.addEventListener('click', switchToSwedish);
-            if (langSvMobile) langSvMobile.addEventListener('click', switchToSwedish);
-            if (langEn) langEn.addEventListener('click', switchToEnglish);
-            if (langEnMobile) langEnMobile.addEventListener('click', switchToEnglish);
-        });
-    </script>
+
 </body>
 </html>
 
