@@ -478,25 +478,8 @@
             const currentPage = window.location.pathname.split('/').pop();
             const basePage = currentPage.replace('-en.html', '.html');
             
-            // Check if user has a language preference and redirect if needed
-            const savedLanguage = localStorage.getItem('preferredLanguage');
-            const isEnglishPage = currentPage.includes('-en.html');
-            
-            // Only redirect if user has explicitly set a language preference
-            if (savedLanguage && savedLanguage === 'en' && !isEnglishPage) {
-                // User prefers English but is on Swedish page, redirect to English
-                const englishPage = basePage.replace('.html', '-en.html');
-                window.location.href = englishPage;
-                return;
-            } else if (savedLanguage && savedLanguage === 'sv' && isEnglishPage) {
-                // User prefers Swedish but is on English page, redirect to Swedish
-                window.location.href = basePage;
-                return;
-            }
-            
             // Swedish language switcher
             function switchToSwedish() {
-                localStorage.setItem('preferredLanguage', 'sv');
                 if (currentPage.includes('-en.html')) {
                     window.location.href = basePage;
                 } else {
@@ -506,7 +489,6 @@
             
             // English language switcher
             function switchToEnglish() {
-                localStorage.setItem('preferredLanguage', 'en');
                 if (!currentPage.includes('-en.html')) {
                     const englishPage = basePage.replace('.html', '-en.html');
                     window.location.href = englishPage;
